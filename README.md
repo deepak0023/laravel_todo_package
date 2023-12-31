@@ -18,21 +18,21 @@ composer require deepak0023/todo
 ```bash
 create database <database-name>
 ```
-
-#### Add Service provider
-
-- Inside config/app.php, add the follwing entries inside the provider array list
-
-```bash
-Deepak0023\Todo\TestServiceProvider::class
-```
-
 #### Update composer.json 
 
 - Inside composer.json add the follwing entry inside autoload psr4 mapping
 
 ```bash
 "Deepak0023\\Todo\\": "vendor/deepak0023/todo/src"
+```
+
+#### Add Service provider
+
+- Inside config/app.php, add the follwing entries inside the provider array list
+- Since the auto package discovery is added the below settings is not needed . but if it not working you can go for it
+
+```bash
+Deepak0023\Todo\TestServiceProvider::class
 ```
 
 #### Publish package
