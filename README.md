@@ -40,7 +40,7 @@ Deepak0023\Todo\TestServiceProvider::class
 - After hitting the command publish the pacakge for the above service provider
 
 ```bash
-php artisan vendor publish
+php artisan vendor:publish
 ```
 
 #### Migrate tables
