@@ -1,4 +1,6 @@
-# Todo
+# Todo App
+
+[![Latest Version](https://img.shields.io/github/release/deepak0023/laravel_todo_package.svg?style=flat-square)](https://github.com/deepak0023/laravel_todo_package/releases)
 
 ### This package was mainly created for tesing how the larvel package scafolding and psr4 namespace works
 
